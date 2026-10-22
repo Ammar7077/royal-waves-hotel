@@ -8,8 +8,8 @@ Open http://localhost:3000
 
 ## Scroll-driven hero
 
-The pinned hero scrubs through 477 motion-interpolated frames generated from
-`public/video.mp4` at 48 fps. The frames are stored as JPEG sprite sheets in
-`public/hero-frames/` (12 frames per sheet). If the source video changes,
-regenerate the sheets with the same FFmpeg settings and update the frame
-constants in `components/Hero.tsx`.
+The pinned hero scrubs through 381 motion-interpolated frames generated from
+`public/6.mov` at 48 fps. The JPEG sprite sheets in `public/hero-frames/` hold
+12 frames each. Sheets 21–25 are intentionally omitted and their section
+crossfades between the surrounding frames. The remaining sheets are prefetched
+as compressed blobs while only nearby decoded images are kept in memory.

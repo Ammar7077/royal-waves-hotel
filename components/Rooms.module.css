@@ -11,17 +11,24 @@
 .intro { margin-top: 1.25rem; color: var(--muted); max-width: 52ch; }
 .cats { margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .cats li {
-  padding: 0.45rem 1.1rem;
-  border-radius: 999px;
+  padding: 0.5rem 1.15rem;
+  border-radius: 0;
+  border: 1px solid rgba(11, 60, 73, 0.16);
   background: var(--lagoon);
   color: var(--white);
-  font-size: 0.95rem;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 .panel {
   background: var(--foam);
   border-radius: var(--radius);
   padding: 2rem;
   border-top: 4px solid var(--wave);
+  border-left: 1px solid rgba(11, 60, 73, 0.1);
+  border-right: 1px solid rgba(11, 60, 73, 0.1);
+  border-bottom: 1px solid rgba(11, 60, 73, 0.1);
 }
 .sub { font-size: 1.4rem; color: var(--lagoon); margin-bottom: 1rem; }
 .features { display: grid; gap: 0.6rem; }
@@ -33,21 +40,24 @@
   content: "";
   position: absolute;
   left: 0;
-  top: 0.6em;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  top: 0.65em;
+  width: 7px;
+  height: 7px;
+  border-radius: 0;
   background: var(--wave);
 }
 .note { margin-top: 1.25rem; color: var(--muted); font-size: 0.97rem; }
 .cta {
   display: inline-block;
   margin-top: 1.5rem;
-  padding: 0.7rem 1.4rem;
-  border-radius: 999px;
+  padding: 0.78rem 1.5rem;
+  border-radius: 0;
   background: var(--lagoon);
   color: var(--white);
+  font-size: 0.76rem;
   font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   text-decoration: none;
   transition: background 0.2s;
 }

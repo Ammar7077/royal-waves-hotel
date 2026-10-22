@@ -7,7 +7,7 @@
   --ink: #10252b;
   --muted: #4d6a70;
   --white: #ffffff;
-  --radius: 14px;
+  --radius: 0px;
   --max: 1120px;
 }
 
@@ -34,6 +34,13 @@ h1, h2, h3 {
 p { margin: 0; }
 a { color: inherit; }
 ul { margin: 0; padding: 0; list-style: none; }
+
+button,
+input,
+select,
+textarea {
+  border-radius: 0;
+}
 
 a:focus-visible, button:focus-visible {
   outline: 3px solid var(--sun);

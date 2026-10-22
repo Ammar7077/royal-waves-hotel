@@ -7,7 +7,7 @@
   align-items: center;
   height: 3.25rem;
   padding: 0.35rem;
-  border-radius: 999px;
+  border-radius: 0;
   background: var(--white);
   color: var(--lagoon-deep);
   text-decoration: none;
@@ -29,7 +29,7 @@
   justify-content: center;
   width: 2.45rem;
   height: 2.45rem;
-  border-radius: 50%;
+  border-radius: 0;
   background: transparent;
   color: var(--lagoon-deep);
   flex: 0 0 auto;
