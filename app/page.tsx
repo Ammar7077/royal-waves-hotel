@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import WaveDivider from "@/components/WaveDivider";
 import About from "@/components/About";
 import Rooms from "@/components/Rooms";
 import Amenities from "@/components/Amenities";
@@ -19,6 +20,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <WaveDivider />
         <About />
         <HotelHighlights />
         <Rooms />
