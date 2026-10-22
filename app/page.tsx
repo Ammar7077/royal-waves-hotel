@@ -9,6 +9,9 @@ import GuestExperience from "@/components/GuestExperience";
 import PracticalInfo from "@/components/PracticalInfo";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import HotelHighlights from "@/components/HotelHighlights";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import BookingPartners from "@/components/BookingPartners";
 
 export default function Home() {
   return (
@@ -17,15 +20,18 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <HotelHighlights />
         <Rooms />
         <Amenities />
         <Location />
         <Dining />
         <GuestExperience />
         <PracticalInfo />
+        <BookingPartners />
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

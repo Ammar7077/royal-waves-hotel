@@ -5,12 +5,12 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./Hero.module.css";
 
-const FRAME_COUNT = 480;
+const FRAME_COUNT = 477;
 const FRAMES_PER_SHEET = 12;
 const FRAME_COLUMNS = 4;
 const FRAME_WIDTH = 960;
 const FRAME_HEIGHT = 540;
-const SHEET_COUNT = FRAME_COUNT / FRAMES_PER_SHEET;
+const SHEET_COUNT = Math.ceil(FRAME_COUNT / FRAMES_PER_SHEET);
 
 export default function Hero() {
   const heroRef = useRef<HTMLElement>(null);
@@ -110,7 +110,6 @@ export default function Hero() {
       activeSheet = firstSheetIndex;
       loadSheet(firstSheetIndex);
       loadSheet(movingForward ? firstSheetIndex + 1 : firstSheetIndex - 1);
-      loadSheet(movingForward ? firstSheetIndex + 2 : firstSheetIndex - 2);
       trimSheets();
 
       const firstSheet = sheets.get(firstSheetIndex);
