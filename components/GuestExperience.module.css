@@ -1,0 +1,5 @@
+.section { padding: 5rem 1.25rem 3rem; background: var(--white); }
+.inner { max-width: 780px; margin: 0 auto; }
+.title { font-size: clamp(1.9rem, 4vw, 2.8rem); color: var(--lagoon); }
+.text { margin-top: 1.25rem; font-size: 1.08rem; color: var(--muted); }
+.note { margin-top: 1rem; font-style: italic; font-size: 0.92rem; color: var(--muted); }

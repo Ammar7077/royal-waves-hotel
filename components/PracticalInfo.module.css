@@ -1,0 +1,12 @@
+.section { padding: 3rem 1.25rem 5rem; background: var(--white); }
+.inner { max-width: 780px; margin: 0 auto; }
+.title { font-size: clamp(1.9rem, 4vw, 2.8rem); color: var(--lagoon); }
+.wrap { margin-top: 1.5rem; overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td {
+  text-align: left;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #d3e3e2;
+}
+.table th { width: 40%; color: var(--lagoon); font-weight: 700; }
+.table tr:nth-child(odd) { background: var(--foam); }

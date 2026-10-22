@@ -1,0 +1,13 @@
+.section {
+  padding: 5rem 1.25rem;
+  background: linear-gradient(135deg, var(--foam) 0%, #d4ebe9 100%);
+}
+.inner { max-width: 780px; margin: 0 auto; }
+.title { font-size: clamp(1.9rem, 4vw, 2.8rem); color: var(--lagoon); }
+.text {
+  margin-top: 1.5rem;
+  font-size: 1.12rem;
+  color: var(--ink);
+  padding-left: 1.5rem;
+  border-left: 4px solid var(--sun);
+}

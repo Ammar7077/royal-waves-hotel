@@ -1,0 +1,14 @@
+.section { background: var(--foam); padding: 3rem 1.25rem 5rem; }
+.inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  align-items: start;
+}
+.title { font-size: clamp(1.9rem, 4vw, 2.8rem); color: var(--lagoon); }
+.text { display: grid; gap: 1.25rem; color: var(--muted); font-size: 1.05rem; max-width: 62ch; }
+@media (max-width: 800px) {
+  .inner { grid-template-columns: 1fr; gap: 1.5rem; }
+}

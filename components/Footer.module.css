@@ -1,0 +1,11 @@
+.footer {
+  padding: 2.5rem 1.25rem;
+  background: #051f26;
+  color: #a9c9c8;
+  text-align: center;
+  display: grid;
+  gap: 0.3rem;
+}
+.brand { font-family: var(--font-display), Georgia, serif; font-size: 1.2rem; color: var(--white); }
+.tag { font-style: italic; }
+.copy { font-size: 0.85rem; margin-top: 0.75rem; }
