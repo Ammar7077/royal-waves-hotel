@@ -11,7 +11,13 @@ export default function Contact() {
           <a href="tel:+66627513520">+66 627 513 520</a>
         </address>
         <p className={styles.text}>We look forward to welcoming you to Patong.</p>
-        <a id="reserve" href="tel:+66627513520" className={styles.cta}>
+        <a
+          id="reserve"
+          href="https://www.booking.com/hotel/th/royal-wave.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.cta}
+        >
           Reserve your room now
         </a>
       </div>
