@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Royal Waves Hotel Patong | Elegant Escape in the Heart of Patong",
   description:
     "Royal Waves Hotel on Nanai Road, Patong: 69 rooms, three pools, free Wi-Fi and parking, minutes from Patong Beach and Jungceylon.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
